@@ -460,7 +460,7 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "cloudflare.idc.rocks:443,www.wuduanyun.com:443,auto.dolby.dpdns.org:443,cf-cname.xingpingcn.top:443,"
+        "cf.1o.ee:443,cf.877774.xyz:443,vps.cheng2001.top:443,op.chinwa.eu.cc:443,www.sage.com:443,www.wto.org:443,www.xiaoshuofen.com:443,idc.urkeji.com:443,webn.cc:443,flightradar24.com:443,www.canadatype.com:443,dash.domain.digitalplat.org:443,mvnrepository.com:443,hostinger.com:443,mokeedev.com:443,fonts.cdnfonts.com:443,cdnjs.com:443,linkvertise.com:443,sourceforge.net:443,ooo.0o0.ooo:443,"
         "cdn.cnno.de:443,saas.sin.fan:443,cf.777791.xyz:443",
     ).split(",")
     if h.strip()
